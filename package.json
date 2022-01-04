@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
+    "redeploy": "node ./ethereum/compile.js && node ./ethereum/deploy.js",
     "next": "next dev",
     "dev": "node server.js"
   },
